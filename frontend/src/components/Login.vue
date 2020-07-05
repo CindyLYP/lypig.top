@@ -24,7 +24,9 @@
             login() {
                 this.$axios
                     .post('/login',{username: this.loginForm.username, password: this.loginForm.password})
-                    .then(successRespone => {if (successRespone.data.code == 200) {this.$router.replace({path: '/index'})}})
+                    .then(successRespone => {if (successRespone.data.code == 200) {this.$router.replace({path: '/index'})}
+                                                else {this.$router.replace({path: '/404'})}
+                    })
                     .catch(failRespone =>{})
             }
         }

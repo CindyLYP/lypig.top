@@ -1,18 +1,6 @@
-# full stack for FedML
+http://lypig.top
 
-### Framework
-
-- Vue.js 
-
-- Springboot
-- Mybatis
-
-
-
-### Software
-
-- IDEA
-- MySQL
+personal website
 
 
 
